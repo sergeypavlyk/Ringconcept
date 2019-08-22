@@ -113,9 +113,9 @@ anime.timeline({loop: false}).add({
     translateX: ["0.55em", 0],
     translateZ: 0,
     rotateZ: [180, 0],
-    duration: 950,
+    duration: 1000,
     easing: "easeOutExpo",
     delay: function(el, i){
-        return 9000 + 50 * i;
+        return 10000 + 50 * i;
     }
 })
