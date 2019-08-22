@@ -3,7 +3,8 @@ html, body {
   padding: 0%;
   width: 100%;
   height: 100vh;
-  background: #121212; }
+  background: #121212;
+  overflow: hidden; }
 
 body {
   background: url("../img/hero.jpg");
@@ -50,7 +51,10 @@ img {
   z-index: 1; }
 
 .menu ion-icon {
-  font-size: 24px; }
+  font-size: 24px;
+  text-decoration: none;
+  cursor: pointer;
+  color: #6adb9d; }
 
 .header {
   position: absolute;
@@ -107,7 +111,8 @@ button {
   color: #fff;
   font-size: 12px !important;
   letter-spacing: 4px;
-  font-weight: 300; }
+  font-weight: 300;
+  cursor: pointer; }
 
 #one {
   background: none;
@@ -127,9 +132,12 @@ button {
   list-style: none; }
 
 .media ul li {
-  color: grey;
   padding: 12px 0;
-  display: inline-block !important; }
+  display: inline-block !important;
+  text-decoration: none;
+  cursor: pointer; }
+  .media ul li ion-icon {
+    color: #6adb9d; }
 
 .bottom-text {
   position: absolute;
